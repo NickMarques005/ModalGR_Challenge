@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Empréstimo</title>
+    <link rel="stylesheet" href="./styles/style.css">
+</head>
+
+<body>
+    <div class="main_div">
+        <div class="header_div">
+            <h1>Empréstimo de Colaboradores</h1>
+        </div>
+        <div class="content_div">
+            <div class="form_div">
+                <div class="title_form_div">
+                    <h2>Dados do Colaborador</h2>
+                </div>
+                <form id="loan_form" class="form">
+                    <div class="inputs_div">
+                        <input type="text" placeholder="Nome" id="name" required>
+
+                        <input type="date" placeholder="Data" id="hireDate" required>
+
+                        <input type="number" placeholder="Salário Atual" id="salary" required>
+
+                        <input type="number" placeholder="Valor do Empréstimo (múltiplo de 2)" id="loanAmount" required>
+                    </div>
+                    <button id="form_button">Enviar</button>
+                </form>
+            </div>
+
+            <div class="result_div" id="result">
+                <div class="result_content_container">
+                    <div class="loan_div">
+                        <h3>
+                            Valor empréstimo:
+                        </h3>
+                        <label id="specific_loan"></label>
+                    </div>
+
+                    <div class="loan_buttons_div">
+                        <div class="value_loan_container">
+                            <button id="highest_value_button">Notas de maior valor</button>
+                            <div class="value_template_div">
+                                <p id="type_highest"></p>
+                            </div>
+                        </div>
+                        <div class="value_loan_container">
+                            <button id="lowest_value_button">Notas de menor valor</button>
+                            <div class="value_template_div">
+                                <p id="type_lowest"></p>
+                            </div>
+                        </div>
+                        <div class="value_loan_container">
+                            <button id="middle_value_button">Notas meio a meio</button>
+                            <div class="value_template_div">
+                                <p id="type_middle"></p>
+                            </div>
+                        </div>
+
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <script src="./scripts/script.js"></script>
+    </div>
+</body>
+
+</html>

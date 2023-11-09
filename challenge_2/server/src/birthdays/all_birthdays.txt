@@ -1,0 +1,6 @@
+Nicolas de Jesus Marques|nicolas.example@gmail.com|2002-09-27
+Hugo Almeida|hugo.example@gmail.com|2000-10-24
+Gustavo Lima|gustavo.example@gmail.com|1994-05-18
+Enzo Ferreira|enzo.example@gmail.com|2001-02-14
+Lucas Freitas|lucas.example@gmail.com|1989-07-20
+Kelly Gasparotto|kelly.example@gmail.com|1996-11-15
